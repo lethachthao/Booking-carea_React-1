@@ -1,0 +1,188 @@
+.slick-prev{
+    border: 2px solid #d7d7d7 !important;
+    // position: relative !important;
+    left: -10 !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: #f5f5f5 !important;
+
+    &:hover{
+        background: #e9e6e6 !important;
+    }
+}
+
+.slick-prev:before{
+    font-family: FontAwesome !important;
+    color: #8f8b8b !important;
+}
+
+.slick-next{
+    border: 2px solid #d7d7d7 !important;
+    z-index: 1000 !important;
+    right: 26px !important;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: #f5f5f5 !important;
+
+    &:hover{
+        background: #e9e6e6 !important;
+    }
+}
+
+.slick-next:before{
+    font-family: FontAwesome !important;
+    color: #8f8b8b !important;
+}
+
+
+.section-share{
+        &.section-specialty{
+            background: #f5f5f5;
+        }
+        &.section-outstanding-doctor{
+            background: #f5f5f5;
+        }
+        &.section-about{
+            background: #f5f5f5;
+        }
+        &.section-about{
+            height: 600px;
+            margin:0 100px;
+            padding: 20px 0;
+        }
+
+
+.section-body{
+        margin-top: 30px;    
+    .section-customize{
+
+           .bg-image{
+                width: 278px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+                border: 1px solid rgb(194, 189, 189);
+                
+
+
+                &.section-specialty{
+                background-image: url('../../assets/specialty/113208-than-kinh.jpg');
+
+
+                }
+
+                &.section-medical-facility{
+                    background-image: url('../../assets/MedicalFacility/152704logo-bvcr-moi.webp');
+                    width: 278px;
+                    height: 190px;
+                }
+                &.section-outstanding-doctor{
+                    background-image: url('../../assets/OutStandingDoctor/155206-logo-y-duoc-1.jpg');
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+
+                }
+                &.section-handbook{
+                    background-image: url('../../assets/handbook/145030-benh-tieu-duong.jpg');
+                }
+            }
+
+            .specialty-text{
+            // border: 1px solid green;
+            display: block;
+            justify-content: center;
+            display: flex;
+            margin-left: -25px;
+
+            }  
+        }
+    
+
+        }
+    
+
+        }
+
+
+
+.section-share{
+    height: 330px;
+    // border: 1px solid red;
+    
+    .specialty-container {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+
+    .specialty-header{
+        height: 40px;
+        margin: 20px;
+        // border-top: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+
+        span{
+                font-size: 30px;
+                font-weight: 700;
+            }
+        button{
+            margin-right: 60px;
+            background-color: #ebebeb;
+            border: none;
+            border-radius: 5px;
+
+            &:hover{
+                background-color: #f7d800;
+            }
+        }
+    }
+
+    }
+
+}
+
+
+.section-outstanding-doctor{
+    .section-customize{
+        
+    }
+    .customize-border{
+        border: 2px solid #e6e2e2;
+        width: 278px;
+        padding: 5px;
+    }
+    .outer-bg{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+.section-home_footer{
+    text-align: center;
+}
+
+.section-about{
+
+    .section-about-header{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 50px 20px;
+        
+    }
+    .section-about-content{
+
+        .content-left{
+            margin: 0 20px;
+            border-radius: 10px;
+        }
+        .content-right{
+
+        }
+    }
+}
